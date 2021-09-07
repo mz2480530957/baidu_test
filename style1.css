@@ -1,0 +1,59 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+}
+.head{
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+}
+/* 头部导航栏左边 */
+.head_left{
+  position: absolute;
+  padding: 0 0 0 24px;
+  height: 60px ;
+  float: left;
+}
+.head_left .left_mav{
+  position: relative;
+  display: inline-block;
+  margin-top: 19px;
+  margin-right: 32px;
+  color: #000;
+}
+.head_left a:hover{
+  color: blue;
+}
+/* 头部导航栏右边 */
+.head_right{
+  position: absolute;
+  float: right;
+  top: 0;
+  right: 0;
+  height: 60px;
+  padding: 0 24px 0 0;
+}
+.head_right .right_wheater , .right_mav{
+  position: relative;
+  display: inline-block;
+  margin-top: 19px;
+  margin-left: 32px;
+}
+.right_wheater_mav , .right_mav{
+  color: #000;
+}
+.city , .wheater_icon{
+  margin-right: 8px;
+  height: 23px;
+  display: inline-block;
+}
+.img_wheater_icon{
+  height: 23px;
+  width: 23px;
+  background-size: 100% 100%;
+  margin-right:4px;
+  vertical-align: top;
+}

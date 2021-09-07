@@ -1,0 +1,263 @@
+body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+}
+ul ,li{
+  list-style: none;
+}
+.head{
+  font-family: Arial,sans-serif;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+/* 头部导航栏左边 */
+.head_left{
+  padding: 0 0 0 24px;
+  height: 60px ;
+}
+.head_left .left_mav{
+  display: inline-block;
+  margin-top: 19px;
+  margin-right: 32px;
+  color: #000;
+}
+.head_left a:hover{
+  color: blue;
+}
+/* 头部导航栏右边 */
+.head_right{
+  top: 0;
+  right: 0;
+  height: 60px;
+  padding: 0 24px 0 0;
+}
+.head_right .right_wheater , .right_mav{
+  display: inline-block;
+  margin-top: 19px;
+  margin-left: 32px;
+}
+.right_wheater_mav , .right_mav{
+  color: #000;
+}
+.city , .wheater_icon{
+  margin-right: 8px;
+  height: 23px;
+  display: inline-block;
+}
+.img_wheater_icon{
+  height: 23px;
+  width: 23px;
+  background-size: 100% 100%;
+  margin-right:4px;
+  vertical-align: top;
+}
+.head_right a:hover{
+  color: blue;
+}
+/* 状态图形 */
+.state{
+  display: inline-block;
+  background-color: #40c057;
+  border-radius: 8px;
+  padding: 0 6px;
+}
+.air_state{
+  color: #fff;
+  font-size: 11px;
+}
+/* 图标 */
+.content{
+  display: flex;
+  justify-content: center;
+}
+.baidu_content{
+  display: inline-block;
+  flex-direction: row;
+}
+.baidu_logo{
+  width: 270px;
+  height: 129px;
+  cursor: pointer;
+}
+/* 搜索框和按钮 */
+.search_b .mic , .search_b .cam{
+  background: #fff url(https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/searchbox/nicon-10750f3f7d.png) no-repeat;
+  width: 24px;
+  height: 20px;
+}
+.search_mc{
+  position: absolute;
+  margin: 12px 18px 10px 450px;
+}
+.search_b .mic{
+  background-position: 0 -2px;
+  display: inline-block;
+  margin-right: 14px;
+}
+.search_b .cam{
+  background-position: 0 -51px;
+  display: inline-block;
+  margin-top: 1px;
+}
+.search_sh_btn{
+  display: flex;
+}
+.baidu_search{
+  width: 500px;
+  height: 16px;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #c4c7ce;
+  border-right: none;
+  border-radius: 10px 0 0 10px;
+}
+.baidu_button{
+  padding: 0;
+  width: 108px;
+  height: 44px;
+  background-color: #4e6ef2;
+  color: #fff;
+  font-size: 17px;
+  border-radius: 0 10px 10px 0;
+  border: none;
+  cursor: pointer;
+}
+.baidu_button:hover{
+  background-color: #435ecc;
+}
+.search_btn{
+  display: inline-block;
+}
+#search:hover{
+  border: 2px solid #9ea0a7;
+  border-right: none;
+}
+/* 内容第二模块 */
+.content2{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+/* 内容第二模块左边部分 */
+.baidu_recommend{
+  display: inline-block;
+  margin-right: 500px;
+}
+.baidu_recommend a{
+  color: #9195a3;
+  margin: 10px 8px;
+  font-size: 14px;
+}
+.baidu_recommend a:hover{
+  color: #2b2828;
+}
+.bd_news{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 5px 0;
+}
+.bd_normal{
+  font-size: 12px;
+  color: #6d6b6b;
+}
+.bd_news a{
+  font-size: 20px;
+  color: #222222;
+  padding: 10px 0;  
+}
+.bd_news a:hover{
+  color: blue;
+}
+.bd_items_img{
+  display: flex;
+  flex-direction: row;
+
+}
+.bd_img_new{
+  height: 122px;
+  margin: 5px 5px 0 0 ;
+}
+/* 内容第二模块右边部分 */
+.baidu_smhead{
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+  font-size: 14px;
+  margin-top: 2px;
+}
+.bd_hotsearch a{
+  color: #000;
+}
+.bd_change a{
+  color: #7c7474;
+}
+.bd_change a:hover{
+  color: blue;
+}
+.bd_items{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  font-size: 14px;
+}
+.bd_items li{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.bd_items a{
+  color: #000;
+}
+.bd_items a:hover{
+  color: blue;
+}
+.nm1{
+  color: #ec1a1a;
+  margin-right: 5px;
+}
+.nm2{
+  color: #f8a82f;
+  margin-right: 5px;
+}
+.nm3{
+  color: #fcd31e;
+  margin-right: 5px;
+}
+.bd_number{
+  color: #746d6d;
+  margin-right: 5px;
+}
+.bd_heat{
+  display: inline-block;
+  color: #746d6d;
+  cursor: default;
+}
+/* 底部 */
+.bottom{
+  display: flex;
+  justify-content: center;
+  margin-top: 230px;
+}
+.bd_bottom .lh{
+  display: inline-block;
+}
+.lh , .lh a{
+  color: #BBBBBB;
+  margin: 0 8px;
+  font-size: 12px;
+}
+.lh a:hover{
+  color: #000;
+}
+
